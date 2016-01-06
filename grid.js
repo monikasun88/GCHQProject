@@ -151,7 +151,7 @@ topTileText.append("text")
   .each(function(d, i) {
     for (a=0; a<d.length; a++) {
       d3.select(this).append("tspan")
-        .text(d[a])
+        .text(d[d.length - a - 1])
         .attr("x", i * tileSize + (leftSectionWidth + tileSize/2))
         .attr("y", topSectionHeight-a*12-5)
         .attr("fill", "black")
