@@ -1,0 +1,36 @@
+.tile:hover,
+.tileClicked {
+  fill: black;
+  stroke: black;
+}
+
+.tileNot {
+  fill: red;
+  stroke: black;
+}
+
+#viz {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.tile {
+  fill: white;
+  stroke: black;
+}
+
+.tileNote {
+  fill: grey;
+  stroke: black;
+}
+
+.lockButtonClicked {
+  fill: red;
+  stroke: black;
+}
+
+.lockButton,
+.clearButton {
+  fill: white;
+  stroke: black;
+}
