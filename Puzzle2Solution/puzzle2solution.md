@@ -100,7 +100,7 @@ C <- B[-1] + B[-length(B)]
 D <- C[-1] + C[-length(C)]
 E <- D[-1] + D[-length(D)]
 F <- E[-1] + E[-length(E)]
-
+-----
 F
 [1] 422 353
 </code></pre>
